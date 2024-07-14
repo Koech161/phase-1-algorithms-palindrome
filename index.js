@@ -1,9 +1,25 @@
 function isPalindrome(word) {
   // Write your algorithm here
+let rev=word.split('').reverse().join('')
+if (rev == word){
+return true
+}else{
+  return false
 }
+/*for(let i = word.length - 1; i>=0; i--){
+  rev += word[i]
+}
+if(rev==word){
+  return true
+} else{
+  return false
+}*/
 
+};
 /* 
   Add your pseudocode here
+  using split(), reverse() and join
+  also you can use for loop
 */
 
 /*
